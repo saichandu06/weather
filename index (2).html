@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Graph</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Graph</h1>
+        <div class="input-container">
+            <label for="cityInput">Enter City Name:</label>
+            <input type="text" id="cityInput">
+            <button onclick="fetchWeather()">Fetch Weather</button>
+        </div>
+        <canvas id="weatherChart" width="600" height="400"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
